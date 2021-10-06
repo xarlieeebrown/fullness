@@ -1,5 +1,5 @@
 .img1{
-    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 0.9) 50%,rgba(255, 255, 255, 0.1) 100%),  url(../img/1.png);
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 0.9) 50%,rgba(255, 255, 255, 0.1) 70%),  url(../img/comuni.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
