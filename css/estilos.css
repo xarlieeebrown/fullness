@@ -7,7 +7,7 @@
 }
 .textura{
     
-    background-image:radial-gradient(circle at left,rgba(248, 212, 36, 0.95) 0%,rgba(248, 212, 36, 0.95) 100%),  url(../img/lineas.png);
+    background-image:/*radial-gradient(circle at left,rgba(248, 212, 36, 0.95) 0%,rgba(248, 212, 36, 0.95) 100%),*/  url(../img/principal.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;   
