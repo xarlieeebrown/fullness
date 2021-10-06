@@ -1,11 +1,17 @@
 .img1{
-    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 0.9) 50%,rgba(255, 255, 255, 0.1) 70%),  url(../img/comuni.jpg);
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/comuni.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
 }
 .branding{
-    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 0.9) 50%,rgba(255, 255, 255, 0.1) 70%),  url(../img/branding.jpg);
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/branding.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.reuniones{
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/reuniones.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
