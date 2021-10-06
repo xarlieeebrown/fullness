@@ -36,6 +36,13 @@
 .sombra2{
     box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
 }
+.amarillo{
+    background-color: rgb(248, 212, 36);
+    height: 7px;
+    width: 5%;
+    left: 47%;
+    position: relative;
+}
 
 
 .arriba{
