@@ -82,6 +82,9 @@ height: auto;
     .textura{
         background-image: url(../img/movil.png);
     }
+    .texto{
+        color:#fff;
+    }
     
     
 }
