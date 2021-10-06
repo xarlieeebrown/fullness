@@ -3,10 +3,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
-    
+}
+.branding{
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 0.9) 50%,rgba(255, 255, 255, 0.1) 70%),  url(../img/branding.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 .textura{
-    
     background-image: url(../img/principal.png);
     background-position: center;
     background-repeat: no-repeat;
