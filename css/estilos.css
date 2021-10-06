@@ -1,157 +1,32 @@
-.fondo1{
-    background-image: radial-gradient(circle at right,rgba(0,0,0,0.12) 0%,rgba(9,16,25,0.93) 60%), url(../img/examenesdeconfianza-1.webp);
+.img1{
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 0.9) 50%,rgba(255, 255, 255, 0.1) 100%),  url(../img/1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover 
-}
-.contacto{
-    background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%), url(../img/examenesdeconfianza-1.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover 
+    background-size: cover ;
     
 }
-.fondo2{
-    background-image: radial-gradient(circle at center,rgba(21,28,50,0.73) 0%,rgba(9,16,25,0.92) 100%), url(../img/examenesdeconfianza-1.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.fondomedico{
-    background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.79) 60%),url(../img/medico-laboral.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
-.fondo3{
-    background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%);
-}
-.fondo5{
-    background-image: url(../img/contacto.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.fondopoli{
-    background-image: radial-gradient(circle at bottom left,#003957 0%,rgba(12,113,195,0.27) 100%), url(../img/poligrafo-banner.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.fondopsico{
-    background-image: radial-gradient(circle at bottom left,#3c3f7e 0%,rgba(85,96,169,0.6) 100%), url(../img/prueba-psicometrica.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.fondolaboral{
-    background-image: radial-gradient(circle at bottom left,#0c71c3 0%,rgba(12,113,195,0.27) 100%), url(../img/medico-laboral.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.empresas{
-    background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.79) 60%), url(../img/empresas.webp.);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.capacitacion{
-    background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%), url(../img/capacitacion.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.invertido{
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-}
-.depoligrafo{
-    background-color: #003957;
-    height: 7px;
-    width: 5%;
+.textura{
     
-    left: 47%;
+    background-image:radial-gradient(circle at left,rgba(248, 212, 36, 0.95) 0%,rgba(248, 212, 36, 0.95) 100%),  url(../img/lineas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;   
+}
+.redonda{
+    border-radius: 150px;
     position: relative;
-}
-.morado{
-    color: rgb(85, 96, 169);
-}
-.moradito{
-    background-color: rgb(85, 96, 169);
-    height: 7px;
-    width: 5%;
-    
-    left: 47%;
-    position: relative;
-}
-.rayablanca{
-    background-color: #fff;
-    height: 7px;
-    width: 5%;
-    
-    left: 47%;
-    position: relative;
-}
-.marino{
-    color:#003957;
-}
-.azul{
-    color: rgb(12, 113, 195);
-}
-.color a:hover{
-    color: #edf000;
-}
-.movido{
-    position: relative;
-    top:-60px;
-    z-index: 8;
-    
-}
-.gordita{
-    font-weight: 800;
-}
-.policolor{
-    color:#565656;
+    right: -700px;
+    top: -300px;
+    transform: scale(1.6)
 }
 
-.fuera{
-    position: absolute;
-    bottom: 50;
-    left: 30%;
-    z-index: 50;
-}
 .sombra{
     box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
 }
 .sombra2{
     box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
 }
-.amarillo{
-    height: 7px;
-    width: 5%;
-    background-color: #edf000;
-    left: 47%;
-    position: relative;
-}
-.gris{
-    height: 8px;
-    width: 5%;
-    background-color: #003957;
-    left: 48%;
-    position: relative;
-}
-.sobrepuesto{
-    position: relative;
-    top:-60px;
-    z-index: 25;
-}
-.cartita{
-    width: 30rem;
-}
-.cartita2{
-    width: 30rem;
-}
+
 
 .arriba{
     position: fixed;
@@ -184,107 +59,21 @@ height: auto;
 
 
 
-/* filtrado */
-input[type="radio"] {
-    position: absolute;
-    left: -9999px;
-  }
 
-  .filters * {
-    display: inline-block;
-  }
-
-  .posts .post-categories {
-    margin-bottom: 0.75rem;
-    font-size: 0.75rem;
-  }
-  
-  .posts .post-categories * {
-    display: inline-block;
-  }
-  
-  .posts .post-categories li {
-    margin-bottom: 0.2rem;
-  }
-  
-  .posts .post-categories a {
-    padding: 0.2rem 0.5rem;
-    border-radius: 1rem;
-    border: 1px solid;
-    line-height: normal;
-    transition: all 0.1s;
-  }
-  
-  .posts .post-categories a:hover {
-    background: var(--green);
-    color: var(--white);
-  }
-
-
-  /* FILTERING RULES
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  
-  [value="Preempleo"]:checked ~ .filters [for="Preempleo"],
-  [value="Permanencia"]:checked ~ .filters [for="Permanencia"],
-  [value="Especifico"]:checked ~ .filters [for="Especifico"],
-  [value="Medicina"]:checked ~ .filters [for="Medicina"],
-  [value="Examen"]:checked ~ .filters [for="Examen"],
-  [value="Laboratorios"]:checked ~ .filters [for="Laboratorios"] {
-    background: var(--green);
-    color: var(--white);
-  }
-  
-  [value="todo"]:checked ~ .posts [data-category] {
-    display: block;
-    }
-  
-[value="Preempleo"]:checked ~ .posts .post:not([data-category~="Preempleo"]),
-[value="Permanencia"]:checked ~ .posts .post:not([data-category~="Permanencia"]),
-[value="Especifico"]:checked ~ .posts .post:not([data-category~="Especifico"]),
-[value="Medicina"]:checked ~ .posts .post:not([data-category~="Medicina"]),
-[value="Examen"]:checked ~ .posts .post:not([data-category~="Examen"]),
-[value="Laboratorios"]:checked ~ .posts .post:not([data-category~="Laboratorios"])
- {
-    display: none;
-}
 
 @media only screen and (min-width:300px) and (max-width:900px){
-    .choncha{
-        font-size: 2.3em; 
-        font-weight: 900;
-    }
+    
     .desaparece{
         display: none;
     }
-    .amarillo{
-        width: 20%;
-        left: 40%;
-        
+    .redonda{
+        display: none;
     }
-    .depoligrafo{
-        width: 20%;
-        left: 40%;
-    }
-    .rayablanca{
-        width: 20%;
-        left: 40%;
-    }
-    .gris{
-        width: 20%;
-        left: 40%;
-    }
-    .cartita{
-        width: 25rem;
-    }
-    .cartita2{
-        width: 20rem;
-    }
+    
+    
 }
 @media only screen and (min-width:901px) and (max-width:3000px){
-    .choncha{
-        font-size: 4.5em; 
-        font-weight: 900;
-    }
+   
     .aparece{
         display: none;
     }
