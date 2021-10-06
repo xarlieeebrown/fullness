@@ -79,6 +79,9 @@ height: auto;
     .redonda{
         display: none;
     }
+    .textura{
+        background-image: url(../img/movil.png);
+    }
     
     
 }
