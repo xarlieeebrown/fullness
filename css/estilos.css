@@ -11,7 +11,7 @@
     background-size: cover ;
 }
 .reuniones{
-    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/reuniones.png);
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/reuniones.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
