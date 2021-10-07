@@ -34,17 +34,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
-    animation: fondoso 60s infinite ease-in-out;   
+    animation: fondoso 70s ease;   
 }
 @keyframes fondoso{
-    0%{
+    from{
         transform: scale(1) rotate(0deg);
        }
-    100%{
-        transform: scale(2) rotate(0.1deg);
+    to{
+        transform: scale(1.5) rotate(0.1deg);
        
         }
 } 
+
+@keyframes wii{
+    from{
+        transform:scale(1)
+    }
+    to{
+        transform:scale(1.5)
+    }
+
+}
+.centro{
+    animation:wii 80s;
+}
+
+
 
 /* pruebas*/
 .zoom {
@@ -62,9 +77,14 @@
 
 
 
-
-
-
+/*
+@keyframes zoom{
+    from{
+        transform:scale(1,1)
+    }
+    to
+    {transform:scale(1.5,1.5)}}.center-block{-webkit-animation:zoom 80s;animation:zoom 80s;}
+*/
 
 .sombra{
     box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
