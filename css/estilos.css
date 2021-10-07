@@ -74,18 +74,19 @@
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
     width: 300px;
-    height: 200px;
+    height: 170px;
  }
  .mosaico p {
-     visibility: hidden;
+     display: none;
  }
+ 
 .mosaico:hover {
     background-image: url(../img/reuniones.webp);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .mosaico:hover p{
-    visibility: visible;
+    display: block;
 } 
 
 .mosaico2 {
@@ -95,7 +96,7 @@
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
     width: 300px;
-    height: 200px;
+    height: 170px;
  }
 .mosaico2:hover {
     background-image: url(../img/min6.webp);
