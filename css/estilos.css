@@ -73,26 +73,37 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 200px;
+    width: 300px;
     height: 200px;
+ }
+ .mosaico p {
+     visibility: hidden;
  }
 .mosaico:hover {
     background-image: url(../img/reuniones.webp);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+.mosaico:hover p{
+    visibility: visible;
+} 
+
 .mosaico2 {
     background-image: radial-gradient(circle at left,rgba(31, 34, 120, 0.331) 0%,rgba(21, 13, 108, 0.5) 100%),  url(../img/min6.webp);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 200px;
+    width: 300px;
     height: 200px;
  }
 .mosaico2:hover {
     background-image: url(../img/min6.webp);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
+
 
 
 
