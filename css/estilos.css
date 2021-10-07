@@ -26,14 +26,44 @@
     background-image: url(../img/nuevo.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover ;   
+    background-size: cover ;  
+
 }
 .textura2{
     background-image: url(../img/nuevo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover ;   
+    background-size: cover ;
+    animation: fondoso 60s infinite ease-in-out;   
 }
+@keyframes fondoso{
+    0%{
+        transform: scale(1) rotate(0deg);
+       }
+    100%{
+        transform: scale(2) rotate(0.1deg);
+       
+        }
+} 
+
+/* pruebas*/
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+ }
+  
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
+
 
 
 .sombra{
